@@ -144,3 +144,24 @@ textarea:focus {
     border-style: ridge;
     border-radius: 10px;
 }
+.checkbox-term {
+    font-size: 13px;
+    font-weight: 200;
+    color: #0c1b39;
+    float: left
+}
+
+.miCheckbox {
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+    border: 2px solid #888;
+}
+
+.miCheckbox:focus {
+    border-color: #292a3a;
+}
+
+.checkbox-term a {
+    color: #e1523d;
+}
