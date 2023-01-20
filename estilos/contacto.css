@@ -5,12 +5,13 @@
     padding: 0;
 }
 
-.contenedor-principal-contacto {
+.contenedor-principal-galeria {
+    position: relative;
     width: 100%;
+    height: auto;
 }
 
 .header-center-contacto {
-    width: 100%;
     height: 470px;
 }
 
@@ -21,15 +22,18 @@
 }
 
 .formulario-contacto {
-    width: 460px;
+    width: 470px;
     height: auto;
     margin: 45px;
     border-radius: 10px;
+    border-style: ridge;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #fff4f4;
+    background-color: #cabfbf;
     padding-left: 30px;
     float: left;
+    position: relative;
+
 }
 
 input {
@@ -64,7 +68,7 @@ label {
     float: center;
 }
 
-button {
+input[type=button] {
     height: 45px;
     padding-left: 5px;
     padding-right: 5px;
@@ -77,18 +81,11 @@ button {
     border-radius: 10px;
     width: 100px;
     cursor: pointer;
-}
-
-button p {
     color: #fff4f4;
 }
 
-span {
-    color: #0c1b39;
-}
-
-b {
-    color: red;
+.obligatorio {
+    color: #e1523d;
 }
 
 .aviso-asterisco {
@@ -100,23 +97,21 @@ h1 {
     font-size: 33px;
     text-align: left;
     padding-bottom: 20px;
-    color: #0c1b39
+    color: #0c1b39;
+    font-weight: 200;
 }
 
 h3 {
     font-size: 16px;
     padding-bottom: 30px;
-    color: #0c1b39
+    color: #0c1b39;
+    font-weight: 100;
 }
-
 
 p {
     font-size: 14px;
-    color: #0c1b39
+    color: #0c1b39;
 }
-
-
-
 
 .formulario input:focus,
 textarea:focus {
@@ -125,37 +120,17 @@ textarea:focus {
     outline: 2px solid transparent;
 }
 
-
-.mapa-iframe {
-    text-align: right;
-    height: 620px;
-    width: 600px;
-    float: right;
-    margin: 50px 70px auto auto;
-
+input[type=checkbox] {
+    width: 15px;
+    height: 15px;
+    cursor: pointer;
 }
 
-.mapa-google {
-    overflow: hidden;
-    background: none !important;
-    height: 620px;
-    width: 600px;
-    border-width: 1px;
-    border-style: ridge;
-    border-radius: 10px;
-}
 .checkbox-term {
     font-size: 13px;
     font-weight: 200;
     color: #0c1b39;
-    float: left
-}
-
-.miCheckbox {
-    width: 14px;
-    height: 14px;
     cursor: pointer;
-    border: 2px solid #888;
 }
 
 .miCheckbox:focus {
@@ -164,4 +139,20 @@ textarea:focus {
 
 .checkbox-term a {
     color: #e1523d;
+}
+
+.mapa-iframe {
+    height: 520px;
+    width: 500px;
+    margin: 60px 90px auto auto;
+}
+
+.mapa-google {
+    overflow: hidden;
+    background: none !important;
+    height: 520px;
+    width: 500px;
+    border-width: 1px;
+    border-style: ridge;
+    border-radius: 10px;
 }

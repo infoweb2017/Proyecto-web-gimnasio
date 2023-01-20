@@ -1,12 +1,3 @@
-.espacio-relleno-3 {
-    width: 100%;
-    height: 100px;
-    background-image: url(/images/rectangle_22.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
-}
-
 .espacio-relleno-4 {
     width: 100%;
     height: 90px;
@@ -30,4 +21,46 @@ td {
 
 .sinClase {
     background: #e1523d;
+}
+.yoga{
+    background: #2c9551aa;
+}
+.Ccircuit{
+    background: #1dc5dfbf;
+}
+.rumble{
+    background: #a65662c5;
+}
+.cross{
+    background: #bd886cc5;
+}
+.boompa{
+    background: #1e35b5c5;
+} 
+.zumba{
+    background: #5643a4c5;
+} 
+.bCombat{
+    background: #34bbbdc5;
+}
+.crossBox{
+    background: #4f4748c5;
+}
+.pilates{
+    background: #10e461d6;
+}
+.dance{
+    background: #c3b7b9e7;
+}
+.eliptica{
+    background: #0c0947c5;
+}
+.bPump{
+    background: #3af208f4;
+}
+.bCycling{
+    background: #cbaa5d46;
+}
+.bBox{
+    background: #ce2dd7c7;
 }

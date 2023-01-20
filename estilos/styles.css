@@ -2,39 +2,51 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	/*box-sizing: border-box -->se establece en un elemento, el relleno y el borde se incluyen en el ancho y la altura*/
 }
 
 html {
+	/*Agregue un efecto de desplazamiento suave al documento
+	en ves de un salto directo, cuando se haga clip en un enlace*/
 	scroll-behavior: smooth;
 }
 
 body {
-	background-color: rgba(255, 255, 255, 1);
+	background-color: #fff4f4;
 	width: 100%;
 	font-family: Poppins;
 	display: inline-block;
+	/*Establece un width y height en el elemento, respetando los margin y padding*/
 	overflow-x: hidden;
+	/*Oculta todos los contenidos que se salen de la caja del elemento */
+}
+
+/*Modificar el scroll de la página con seudo elementos -webkit*/
+body::-webkit-scrollbar{
+	width: 8px;
+}
+body::-webkit-scrollbar-thumb{
+	background-color: #292a3a;
+	border-radius: 10px;
 }
 
 .Navbar-header {
 	background-color: #292a3a;
 	width: 100%;
-	height: 153px;
+	height: 140px;
+	position: absolute;
 }
 
 /*--------------> CSS del Logo <---------*/
 .logo {
-	position: absolute;
+	width: 100%;
+	position: relative;
 	left: 0px;
 	top: 0px;
-	/*background-image: url(/images/logo_gim_1.png);*/
-	background-repeat: no-repeat;
-	background-size: cover;
 }
 
 .logo img {
-	/*width: 220x;*/
-	height: 150px;
+	height: 140px;
 	position: relative;
 	left: 0px;
 	top: 0px;
@@ -45,8 +57,9 @@ body {
 	width: 860px;
 	height: 45px;
 	position: absolute;
-	left: 245px;
-	top: 90px;
+	left: 220px;
+	top: 48px;
+	text-align: center;
 }
 
 span a {
@@ -173,6 +186,7 @@ span a:hover {
 }
 
 .btn-horarios ul ul li a {
+	width: 120px;
 	height: 25px;
 	position: relative;
 	transition: all .5s ease;
@@ -187,9 +201,9 @@ span a:hover {
 	font-size: 10px;
 	color: #292a3a;
 	background: #fff4f4;
-	border-radius: 4px;
-	padding: 4px;
-
+	border-radius: 3px;
+	padding: 3px;
+	float: left;
 }
 
 .btn-nosotros {
@@ -226,13 +240,12 @@ span a:hover {
 
 /*--------------> CSS de las redes sociales <---------*/
 .redes-sociales {
-	box-shadow: 0px 4px 4px #292a3a;
 	width: 200px;
 	height: 35px;
-	position: relative;
-	left: 937px;
-	top: 25px;
-	text-align: end;
+	position: absolute;
+	left: 75%;
+	top: 55px;
+	right: 0px;
 }
 
 .redes-sociales a {
@@ -250,29 +263,31 @@ span a:hover {
 
 /*--------------> CSS de Idioma <---------*/
 .selector-idiomas {
-	position: relative;
-	float: right;
-	margin-right: 75px;
+	left: 85%;
+	top: 55px;
+	right: 25px;
+	position: absolute;
+
 }
 
 .letter-idioma {
 	color: #fff4f4;
 	left: 0px;
-	font-family: Poppins;
 	text-align: center;
 	font-size: 16px;
 	letter-spacing: 0;
+	position: relative;
 }
 
 .cont-selector-idioma {
-	background-color: #292a3a;
-	display: flex;
-	left: 72px;
-
+	position: absolute;
+	top: 25px;
+	left: 72px
 }
 
 #idiomas-pages {
-	background-color: ;
+	background-color: #fff4f4;
+	text-align: center;
 	height: 27px;
 	display: inline-block;
 	position: relative;
@@ -283,34 +298,23 @@ span a:hover {
 	transition: all 0.25s ease;
 }
 
+#idiomas-page option {
+	text-align: center;
+}
+
 #idiomas-pages:hover {
 	color: #fff4f4;
-	background-color: #e1523d;
+	background-color: #292a3a;
 }
 
 /*--------------> CSS del Header <---------*/
 .header-center {
 	width: 100%;
-	height: 432px;
+	height: 500px;
 	background-image: url(../images/header.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 
-}
-
-.text-bienvenida {
-	color: #0c1b39;
-	height: 92px;
-	position: relative;
-	left: 0px;
-	top: 100px;
-	text-align: center;
-	font-size: 64px;
-	font-weight: 300;
-}
-
-.text-bienvenida p {
-	text-align: center;
 }
 
 .btn-inscribete {
@@ -319,11 +323,11 @@ span a:hover {
 	height: 56px;
 	position: relative;
 	left: 610px;
-	top: 200px;
+	top: 300px;
 	border-radius: 6px;
 	transition: all 1s ease;
 	font-weight: 300;
-
+	text-align: center;
 }
 
 .btn-ins {
@@ -456,17 +460,18 @@ span a:hover {
 	color: #fff4f4;
 	width: 673px;
 	height: 36px;
-	position: absolute;
+	position: relative;
 	font-size: 24px;
+	top: 15px;
 }
 
 .cont-textos-centro {
 	color: #fff4f4;
 	width: 951px;
 	height: 196px;
-	position: absolute;
-	top: 73px;
-	font-size: 24px;
+	position: relative;
+	top: 40px;
+	font-size: 19px;
 }
 
 .cont-textos-end {
@@ -474,8 +479,8 @@ span a:hover {
 	width: 920px;
 	height: 36px;
 	position: absolute;
-	top: 260px;
-	font-size: 24px;
+	top: 240px;
+	font-size: 19px;
 }
 
 .cont-input-inscribete {
@@ -483,7 +488,7 @@ span a:hover {
 	height: 76px;
 	position: absolute;
 	left: 244px;
-	top: 358px;
+	top: 340px;
 }
 
 .Email {
@@ -494,6 +499,13 @@ span a:hover {
 	left: 0px;
 	top: 28px;
 	border-radius: 5px;
+}
+
+
+input::placeholder {
+	color: red;
+	font-size: 1.2em;
+	font-style: italic;
 }
 
 .btn-inscribete-ahora {
@@ -514,13 +526,6 @@ span a:hover {
 	margin-top: 28px
 }
 
-input::placeholder {
-	color: red;
-	font-size: 1.2em;
-	font-style: italic;
-	padding-left: 10px;
-}
-
 .btn-inscribete-ahora:hover {
 	background-color: #fff4f4;
 	color: #292a3a;
@@ -535,12 +540,33 @@ input::placeholder {
 /*---------------------------------> CSS Footer <---------------------------------------*/
 .Container-footer {
 	background-color: #292a3a;
-	margin-top: 5em;
 	width: 100%;
 	height: 300px;
 	position: relative;
 	left: 0px;
 	overflow: hidden;
+}
+
+.datos-gym {
+	float: right;
+	margin: 25px 30px 0 0;
+	position: relative;
+}
+
+.datos-gym p {
+	color: #fff4f4;
+	font-size: 15px;
+	font-weight: 100;
+	margin-bottom: 10px;
+}
+
+.datos-gym span {
+	color: #fff4f4;
+}
+
+.datos-gym img {
+	color: #fff4f4;
+	margin-right: 8px;
 }
 
 .redes-sociales-footer {

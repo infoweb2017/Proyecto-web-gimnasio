@@ -38,27 +38,35 @@
     position: relative;
     text-align: center;
     font-size: 32px;
+    font-weight: 200;
 }
 
 .cont-Nos p {
     color: #fff4f4;
     position: relative;
-    text-align: center;
     font-size: 16px;
-    margin-bottom: 40px;
+    margin: 15px 15px 25px 15px;
+    line-height: 30px;
+    font-weight: 100;
+    text-align: justify;
 }
 
 .cont-equipo {
-    width: 100%;
+    width: 85%;
     height: auto;
-    display: inline-block;
-    margin-bottom: 20px;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .cont-equipo h1 {
     color: #fff4f4;
     text-align: center;
     font-size: 32px;
+    font-weight: 200;
+    width: 100%;
+    margin-bottom: 5px;
 }
 
 .contenedor {
@@ -66,13 +74,15 @@
     text-align: center;
 }
 
-.equipo-1 {
-    width: 300px;
-    height: 300px;
-    margin-left: 70px;
+.cont-equipo .contenedor {
+    width: 25%;
+    position: relative;
+    height: 200px;
+    margin-bottom: 115px;
+    right: 25px;
 }
 
-.equipo-1 h2 {
+.contenedor h2 {
     color: #fff4f4;
     position: relative;
     text-align: center;
@@ -80,7 +90,7 @@
     margin-left: 110px;
 }
 
-.equipo-1 img {
+.contenedor img {
     object-fit: cover;
     /*la propiedad object-fit cover, ajustar su tamaño y no perder la proporcion de nuestra imagen*/
     border-radius: 100px;
@@ -91,192 +101,16 @@
     margin-left: 100px;
 }
 
-.cont-equipo p {
+.contenedor p {
     color: #fff4f4;
     text-align: center;
-    margin-left: 90px;
-}
-
-.equipo-2 {
-    width: 300px;
-    height: 300px;
-}
-
-.equipo-2 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-    margin-top: 55px;
-}
-
-.equipo-2 img {
-    object-fit: cover;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border: black 2px solid;
     margin-left: 100px;
-}
-
-.equipo-3 {
-    width: 300px;
-    height: 300px;
-}
-
-.equipo-3 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-}
-
-.equipo-3 img {
-    object-fit: cover;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border: black 2px solid;
-    margin-left: 100px;
-}
-
-.equipo-4 {
-    width: 15%;
-    height: 300px;
-}
-
-.equipo-4 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-}
-
-.equipo-4 img {
-    object-fit: cover;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border: black 2px solid;
-    margin-left: 100px;
-}
-
-/*gggggggggggggg*/
-.equipo-5 {
-    width: 300px;
-    height: 300px;
-    margin-left: 70px;
-    margin-top: 4em;
-}
-
-
-.equipo-5 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-}
-
-.equipo-5 img {
-    object-fit: cover;
-    /*la propiedad object-fit cover, ajustar su tamaño y no perder la proporcion de nuestra imagen*/
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border: black 2px solid;
-    margin-left: 100px;
-}
-
-.cont-equipo p {
-    color: #fff4f4;
-    text-align: center;
-    margin-left: 90px;
-}
-
-.equipo-6 {
-    width: 300px;
-    height: 300px;
-}
-
-.equipo-6 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-}
-
-.equipo-6 img {
-    object-fit: cover;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border: black 2px solid;
-    margin-left: 100px;
-    margin-bottom: 50px;
-}
-
-.equipo-7 {
-    width: 300px;
-    height: 300px;
-}
-
-.equipo-7 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-}
-
-.equipo-7 img {
-    object-fit: cover;
-    border-radius: 100px;
-    width: 100px;
-    height: 100px;
-    padding: 3px;
-    border: black 2px solid;
-    margin-left: 100px;
-}
-
-.equipo-8 {
-    width: 15%;
-    height: 300px;
-}
-
-.equipo-8 h2 {
-    color: #fff4f4;
-    position: relative;
-    text-align: center;
-    font-size: 24px;
-    margin-left: 110px;
-}
-
-.equipo-8 img {
-    object-fit: cover;
-    border-radius: 100px;
-    width: 100px;
-    padding: 3px;
-    border: black 2px solid;
-    margin-left: 100px;
-    margin-bottom: 20px;
-    height: 84px;
 }
 
 .img-unete {
     overflow: hidden;
     width: 100%;
-    height: 84px;
-    position: absolute;
+    height: 110px;
     background-image: url(/images/yoga-1.png);
     background-repeat: no-repeat;
     background-size: cover;
