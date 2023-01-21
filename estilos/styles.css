@@ -22,10 +22,11 @@ body {
 }
 
 /*Modificar el scroll de la página con seudo elementos -webkit*/
-body::-webkit-scrollbar{
+body::-webkit-scrollbar {
 	width: 8px;
 }
-body::-webkit-scrollbar-thumb{
+
+body::-webkit-scrollbar-thumb {
 	background-color: #292a3a;
 	border-radius: 10px;
 }

@@ -8,8 +8,9 @@
 .contenedor-principal-actividades {
     position: relative;
     width: 100%;
-    margin-top: 170px;
+    margin: 170px 0 20px 0;
 }
+
 
 .contenedor-principal-actividades h1 {
     text-align: center;
