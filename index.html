@@ -139,21 +139,19 @@
       <div class="cont-selector-idioma">
         <select id="idiomas-pages" title="idioma">
           <option value="Es">ES</option>
-          <option value="En">EN</option>
         </select>
       </div>
     </div>
   </div>
-  <!--Header de la pagina-->
-  <div class="header-center">
-    <div class="btn-inscribete">
-      <p class="btn-ins">
-        <a href="./html/Contacto.html">¡ INSCRIBETE YA !</a>
-      </p>
-    </div>
-  </div>
-
   <div class="container-principal">
+    <!--Header de la pagina-->
+    <div class="header-center">
+      <div class="btn-inscribete">
+        <p class="btn-ins">
+          <a href="./html/Contacto.html">¡ INSCRIBETE YA !</a>
+        </p>
+      </div>
+    </div>
     <div class="barra-separacion-servicios">
       <p class="text-barra-sep">
         Los servicios que ofrecemos en nuestro centro deportivos.
@@ -193,7 +191,11 @@
     <!-- Contenedor de publicidad con formulario-->
     <div class="anuncio-publicitario">
       <div class="cont-textos-publi">
-        <hr class="linea-2" />
+        <br>
+        <div class="linea-roja">
+          <hr class="linea-2" />
+        </div>
+
         <p class="cont-textos-top">
           INSCRIBETE YA Y EMPIEZA A DISFRUTAR Y A SENTIRTE BIEN
         </p>
@@ -207,24 +209,46 @@
           En nuestro club tenemos todo los recursos necesarios para hacerlo
           posible.
         </p>
+        <div class="cont-input-inscribete">
+          <input type="email" class="Email" name="user_mail" placeholder="  Ingrese su correo" />
+          <button type="submit" class="btn-inscribete-ahora">
+            ¡INSCRIBETE AHORA!
+          </button>
+        </div>
       </div>
-
-      <div class="cont-input-inscribete">
-        <input type="email" class="Email" name="user_mail" placeholder="Ingrese su correo" />
-        <button type="submit" class="btn-inscribete-ahora">
-          ¡INSCRIBETE AHORA!
-        </button>
+      <!--Contenedor iFrame -->
+      <div class="mapa-iframe">
+        <div class="mapa-google">
+          <iframe title="maps" width="600" height="620" id="gmap_canvas"
+            src="https://maps.google.com/maps?q=IES%20Abastos&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+            scrolling="no" marginheight="0" marginwidth="0">
+          </iframe>
+        </div>
       </div>
     </div>
+    <div class="empresas-patrocinadoras">
+      <div class="content-patro">
+        <span>Empresas patrocinadoras activamente:</span>
+      <ul>
+        <li><img src="./images/1-amazon-espana.png" alt=""></li>
+        <li><img src="./images/2-esn.png" alt=""></li>
+        <li><img src="./images/3-IED.png" alt=""></li>
+        <li><img src="./images/5-norauto.png" alt=""></li>
+        <li><img src="./images/6-masterd.png" alt=""></li>
+        <li><img src="./images/7-secoex.png" alt=""></li>
+        <li><img src="./images/8-sgs.png" alt=""></li>
+        <li><img src="./images/9-1-ninja.png" alt=""></li>
+        <li><img src="./images/10-laserum.png" alt=""></li>
+      </ul>
 
-    <div class="imag">
-      <img src="./images/container_imagenes-1.png" alt="" />
+      </div>
+      
     </div>
   </div>
+
   <!--Contenedor todo el contenido excepto header- navLink-->
   <!--Footer-->
   <div class="Container-footer">
-
     <!--Contenedor de dirección-->
     <div class="datos-gym">
       <p><span class="direccion"><img src="./images/place_white_24dp.svg" alt=""></span>Carrer D'Alberic, 18, 46008
@@ -317,9 +341,9 @@
     </div>
     <span class="acceso-contacto">Si quieres pertenecer a nuestro club pulsa
       <a title="Contacto" href="./html/Contacto.html">AQUÍ</a></span>
-    <div class="logo-footer">
+    <!---<div class="logo-footer">
       <img src="./images/logo_gim_1.png" alt="logo-gim" />
-    </div>
+    </div>-->
     <div class="Nav-footer">
       <ul>
         <li><a href="./html/Contacto.html">CONTACTO</a></li>
