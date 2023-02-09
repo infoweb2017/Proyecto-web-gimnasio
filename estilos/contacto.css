@@ -33,8 +33,9 @@
     border-style: ridge;
     padding-top: 30px;
     padding-bottom: 20px;
-    background-color: #cabfbf;
+    background-color: #ebe5e59e;
     padding-left: 30px;
+    box-shadow: 0px 0px 5px 0px ebe5e59e
 }
 
 .formulario {}

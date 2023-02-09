@@ -29,7 +29,6 @@
     margin-top: 10px;
     width: 100%;
     height: auto;
-    left: 167px;
 }
 
 .cont-Nos h1 {
@@ -42,8 +41,8 @@
 .cont-Nos p {
     color: #fff4f4;
     font-size: 16px;
-    margin: 15px 15px 25px 15px;
-    line-height: 30px;
+    margin: 15px 20px 15px 20px;
+    line-height: 25px;
     font-weight: 100;
     text-align: justify;
 }
@@ -63,7 +62,7 @@
     font-size: 32px;
     font-weight: 200;
     width: 100%;
-    margin-bottom: 5px;
+    margin-bottom: 20px;
 }
 
 .contenedor {
@@ -74,8 +73,7 @@
 .cont-equipo .contenedor {
     width: 25%;
     height: 200px;
-    margin-bottom: 115px;
-    right: 25px;
+    margin-bottom: 150px;
 }
 
 .contenedor h2 {
