@@ -143,3 +143,24 @@ input[type=checkbox] {
 .checkbox-term a {
     color: #e1523d;
 }
+
+/*CSS de Iframe- maps*/
+.mapa-iframe {
+	height: 320px;
+	width: 50%;
+	float: right;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.mapa-google {
+	overflow: hidden;
+	background: none !important;
+	height: 320px;
+	width: 50%;
+	border-width: 1px;
+	border-style: ridge;
+	border-radius: 10px;
+	margin-bottom: 540px;
+}

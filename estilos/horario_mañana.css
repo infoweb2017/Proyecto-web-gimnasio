@@ -12,7 +12,7 @@
 
 .header-center-horarios {
     width: 100%;
-    height: 470px;
+    height: 450px;
 }
 
 .header-center-horarios img {
@@ -21,23 +21,14 @@
     object-fit: cover;
 }
 
-.espacio-relleno-2 {
-    width: 100%;
-    height: 90px;
-    /*background-image: url(/images/container_imagenes-1.png);
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    background: linear-gradient(0deg, #292a3a 1%, rgba(230, 232, 232, 0.81) 100%);
-}
-
 .main-horarios {
-    background-color: #292a3a;
+    background-color: #fff4f4;
     width: 100%;
     height: 700px;
 }
 
 .h-gym {
-    margin: 55px 35px 0px 0px;
+    margin: 85px 35px 0px 0px;
     float: right
 }
 
@@ -47,7 +38,7 @@
 }
 
 .h-gym p {
-    color: #fff4f4;
+    color: #292a3a;
 }
 
 .tabla-horario {
@@ -59,13 +50,14 @@
 table {
     width: 710px;
     height: 481px;
-    margin-top: 30px;
+    margin-top: 35px;
 }
 
 caption {
     padding: 20px;
     font-size: 28px;
-    color: #fff4f4;
+    color: #292a3a;
+    margin-top: 10px;
 }
 
 th {
@@ -73,7 +65,6 @@ th {
     color: #fff4f4;
     text-align: center;
 }
-
 td {
     background-color: #bcb2b4;
     color: #fff4f4;

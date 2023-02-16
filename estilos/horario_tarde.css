@@ -1,12 +1,3 @@
-.espacio-relleno-4 {
-    width: 100%;
-    height: 90px;
-    /*background-image: url(/images/rectangle_22.png);
-    background-repeat: no-repeat;
-    background-size: cover;*/
-    background: linear-gradient(0deg, #292a3a 1%, rgba(230, 232, 232, 0.81) 100%);
-}
-
 th {
     background-color: #8C5137;
     color: #fff4f4;
@@ -20,48 +11,69 @@ td {
     text-align: center;
 }
 
+.color-tex  {
+    color: #292a3a;
+}
+.hora{
+    color: #292a3a;
+}
+
 .sinClase {
     background: #e1523d;
 }
-.yoga{
+
+.yoga {
     background: #2c9551aa;
 }
-.Ccircuit{
+
+.Ccircuit {
     background: #1dc5dfbf;
 }
-.rumble{
+
+.rumble {
     background: #a65662c5;
 }
-.cross{
+
+.cross {
     background: #bd886cc5;
 }
-.boompa{
+
+.boompa {
     background: #1e35b5c5;
-} 
-.zumba{
+}
+
+.zumba {
     background: #5643a4c5;
-} 
-.bCombat{
+}
+
+.bCombat {
     background: #34bbbdc5;
 }
-.crossBox{
+
+.crossBox {
     background: #4f4748c5;
 }
-.pilates{
+
+.pilates {
     background: #10e461d6;
 }
-.dance{
+
+.dance {
     background: #c3b7b9e7;
 }
-.eliptica{
+
+.eliptica {
     background: #0c0947c5;
 }
-.bPump{
+
+.bPump {
     background: #3af208f4;
 }
-.bCycling{
+
+.bCycling {
     background: #cbaa5d46;
 }
-.bBox{
+
+.bBox {
     background: #ce2dd7c7;
 }
