@@ -1,8 +1,10 @@
 .linea-horarios {
     background-color: #e1523d;
-    width: 95%;
+    width: 82%;
     height: 5px;
     padding: 0;
+    margin: 0 auto 0 auto;
+
 }
 
 .contenedor-principal-horarios {

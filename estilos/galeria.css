@@ -1,9 +1,9 @@
 .linea-galeria {
     background-color: #e1523d;
-    width: 100%;
+    width: 90%;
     height: 5px;
     padding: 0;
-    margin: 0 auto auto 4px;
+    margin: 0 auto auto 9px;
 }
 
 /*-------- Aqui empieza el css de galeria de imagenes*/
@@ -14,7 +14,7 @@
 .contenedor-principal-galeria h1 {
     text-align: center;
     color: #e1523d;
-    margin: 180px 0 15px 0;
+    margin: 160px 0 10px 0;
     font-weight: 300;
 }
 
@@ -22,10 +22,10 @@
     color: #292a3a;
 }
 
-.linea {
+/*.linea {
     border-top: 5px solid #292a3a;
     margin-bottom: 20px;
-}
+}*/
 
 .cont-imagenes-galeria {
     display: flex;

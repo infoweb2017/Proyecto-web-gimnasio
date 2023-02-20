@@ -95,9 +95,10 @@ span a:hover {
 
 .linea-0 {
 	background-color: #e1523d;
-	width: 100%;
+	width: 90%;
 	height: 5px;
 	padding: 0;
+	margin: 0 auto 0 auto;
 }
 
 .btn-i:hover,

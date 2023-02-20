@@ -7,14 +7,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Frank - Fran" />
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet" />
-    <link rel="stylesheet" href="/estilos/contacto.css" />
-    <link rel="stylesheet" href="/estilos/styles.css">
-    <link rel="shortcut icon" href="/images/logo_gim_1.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16.png" />
-    <link rel="manifest" href="/images/site.webmanifest" />
-    <link rel="mask-icon" href="/images/safari-pinned-tab.svg" color="#5bbad5" />
+    <link rel="stylesheet" href="../estilos/contacto.css" />
+    <link rel="stylesheet" href="../estilos/styles.css">
+    <link rel="shortcut icon" href="../images/logo_gim_1.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="../images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="../images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="../images/favicon-16x16.png" />
+    <link rel="manifest" href="../images/site.webmanifest" />
+    <link rel="mask-icon" href="../images/safari-pinned-tab.svg" color="#5bbad5" />
     <meta name="msapplication-TileColor" content="#da532c" />
 </head>
 
@@ -23,7 +23,7 @@
     <div class="Navbar-header">
         <!--Logo-->
         <div class="logo">
-            <img src="/images/logo_gim_1.png" alt="logo-gim" />
+            <img src="../images/logo_gim_1.png" alt="logo-gim" />
         </div>
 
         <!--Botones y Links de paginas-->
@@ -32,27 +32,27 @@
                 <span class="btn-i"><a href="../index.html">Inicio </a></span>
             </div>
             <div class="btn-galeria">
-                <span class="btn-g"><a href="/html/Galeria.html">Galería</a></span>
+                <span class="btn-g"><a href="../html/Galeria.html">Galería</a></span>
             </div>
             <div class="btn-actividades">
-                <span class="btn-a"><a href="/html/Actividades.html">Actividades</a></span>
+                <span class="btn-a"><a href="../html/Actividades.html">Actividades</a></span>
             </div>
 
             <div class="btn-horarios">
                 <ul>
                     <li><a href="#">Horarios</a>
                         <ul>
-                            <li><a href="/html/horario_mañana.html">Horario de mañana</a></li>
-                            <li><a href="/html/horario_tarde.html">Horario de tarde</a></li>
+                            <li><a href="../html/horario_mañana.html">Horario de mañana</a></li>
+                            <li><a href="../html/horario_tarde.html">Horario de tarde</a></li>
                         </ul>
                     </li>
                 </ul>
             </div>
             <div class="btn-nosotros">
-                <span class="btn-n"><a href="/html/SobreNosotros.html">Sobre nosotros</a></span>
+                <span class="btn-n"><a href="../html/SobreNosotros.html">Sobre nosotros</a></span>
             </div>
             <div class="btn-contacto">
-                <span class="btn-c"><a href="/html/Contacto.html">Contacto</a></span>
+                <span class="btn-c"><a href="../html/Contacto.html">Contacto</a></span>
                 <hr class="linea-cont">
             </div>
         </div>
@@ -154,13 +154,19 @@
     <div class="contenedor-principal-contacto">
         <!--Header de la pagina-->
         <div class="header-center-contacto">
-            <img src="/images/Slider-3.1.jpg" alt="">
+            <img src="../images/Slider-3.1.jpg" alt="">
+            <div class="textos">
+                <h1>Contacto</h1>
+                <span>Si tienes alguna duda no dudes en contactarnos de inmediato </span>
+                <hr class="linea-continua">
+            </div>
         </div>
 
         <div class="formulario-contacto">
+            <h1>¿Tienes alguna pregunta?</h1>
+            <h3>Rellena tus datos personales, indica tu comentario, sugerencia o pregunta y nuestro equipo de atención
+                al cliente de contestará a la mayor brevedad posible.</h3>
             <div class="formulario">
-                <h1>Formulario de contacto</h1>
-                <h3>En breve nos pondremos en contacto contigo</h3>
                 <form action="">
                     <label for="nombre" class="insertar-nombre">Nombre <span class="obligatorio">*</span>
                     </label>
@@ -170,7 +176,7 @@
                     </label>
                     <input type="text" name="intro-apellido" id="apellido" required="obligado"
                         placeholder="Escriba sus apellidos">
-
+                    <br>
                     <label for=" telefono" class="numero_telefono">Teléfono <span class="obligatorio">*</span></label>
                     <input type="tel" name="insertar_telefono" id="telefono" required="obligado"
                         placeholder="Escriba su número de teléfono">
@@ -194,11 +200,32 @@
                     </p>
                 </form>
             </div>
+            <div class="proteccion-datos">
+                <h2>Protección de datos</h2>
+                <p>PowerHouse GYM, S.L. es el Responsable del tratamiento de los datos personales del usuario
+                    y le informa que estos datos serán tratados de conformidad con lo dispuesto en el Reglamento (UE)
+                    2016/679 de 27 de abril de 2016 (GDPR), por lo que se le facilita la siguiente información del
+                    tratamiento:</p>
+                <p><strong>Protección de datos personales:</strong> Utilizaremos sus datos para responder consultas,
+                    realizar acciones comerciales ya análisis estadísticos.</p>
+                <p><strong>Fin del tratamiento:</strong> Facilitar la entrada como invitado/a; envío de información
+                    comercial por teléfono y medios electrónicos, realizar encuestas de satisfacción y elaborar perfiles
+                    comerciales.</p>
+                <p><strong>Criterios de conservación de los datos:</strong> serán conservados y tratados hasta que el
+                    propio usuario titular de los datos solicite su cancelación o manifieste su oposición al tratamiento
+                    de datos con tales fines, en tal caso los datos se suprimirán con medidas de seguridad adecuadas
+                    para garantizar la seudonimización de los datos o la destrucción total de los mismos.</p>
+                <p><strong>Comunicación de los datos:</strong> Se comunicarán los datos al titular del centro PowerHouse
+                    GYM
+                    elegido en el formulario para su tratamiento con las mismas finalidades..</p>
+            </div>
         </div>
+        
         <!--Contenedor iFrame -->
         <div class="mapa-iframe">
+            <div class="separador"></div>
             <div class="mapa-google">
-                <iframe title="maps" width="600" height="620" id="gmap_canvas"
+                <iframe title="maps" width="1600" height="620" id="gmap_canvas"
                     src="https://maps.google.com/maps?q=IES%20Abastos&t=&z=13&ie=UTF8&iwloc=&output=embed"
                     frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
                 </iframe>
@@ -219,15 +246,15 @@
         </div>
         <!--Redes Sociales-->
         <span class="acceso-contacto">Si quieres pertenecer a nuestro
-            club pulsa <a title="Contacto" href="/html/Contacto.html">AQUÍ</a></span>
+            club pulsa <a title="Contacto" href="../html/Contacto.html">AQUÍ</a></span>
         <!---<div class="logo-footer">
       <img src="./images/logo_gim_1.png" alt="logo-gim" />
     </div>-->
         <div class="Nav-footer">
             <ul>
-                <li><a href="/html/Contacto.html">Contacto</a></li>
+                <li><a href="../html/Contacto.html">Contacto</a></li>
                 <li><a href="#">FAQ</a></li>
-                <li><a href="/html/SobreNosotros.html">Quiénes somos</a></li>
+                <li><a href="../html/SobreNosotros.html">Quiénes somos</a></li>
                 <li><a href="#">Aviso legal</a></li>
                 <li><a href="#">Políticas de cookies</a></li>
                 <li><a href="#">Políticas de privacidad</a></li>
