@@ -31,7 +31,7 @@
     display: flex;
     /*display:flex: 
     Maquetamos nuestras imagenes*/
-    width: 70%;
+    width: 90%;
     margin: auto;
     justify-content: space-around;
     /* space-around:  define cómo distribuye el navegador el espacio entre y alrededor de los elementos de contenido a lo largo del eje principal de un contenedor flex y del eje en línea de un display:flex*/
@@ -42,7 +42,7 @@
 
 .cont-imagenes-galeria .imagen {
     width: 150px;
-    height: 150px;
+    height: 140px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .75);
     margin: 15px 10px 10px 15px;
 }
@@ -66,7 +66,8 @@
 
 .cont-videos-galeria {
     display: flex;
-    width: 70%;
+    width: 89%;
+    max-width: 90%;
     margin: auto;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -78,7 +79,7 @@
     height: 150px;
     box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .75);
     margin: 15px 11px 35px 15px;
-   
+
 }
 
 .videos video {
